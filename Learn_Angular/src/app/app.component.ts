@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Learn_Angular';
+  data:Array<number>=[1,2,3,4,5];
 }
