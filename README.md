@@ -8,7 +8,7 @@
     <li>ng serve --open --port</li>
      <li>angular folders</li>
       <li>decorator</li>
-       <li>directive</li>
+       <li>directive-*ngFor</li>
         <li>{{}} data binding</li>
          <li>typescript data types</li>
           <li>ng g component some</li>
