@@ -31,7 +31,7 @@
     <li>Response model</li>
     <li>TypeScript implements-extends</li>
     <li>OnInit(ngoninit) Component</li>
-    <li> Angular HttpClient(generic get<Type>,post,put,dlete,patch http headers) like as axios or fetch</li>
+    <li> Angular HttpClient(generic get<Type>,post,put,dlete,patch http headers) like as axios or fetch(used jsonplaceholder)</li>
     <li>Observer Pattern(subscribe)</li>
     <li>NullInjection Error</li>
     <li>HttpClientModel</li><li>appModule imports-declarations</li><li>Cors Configuration in Backend for Angular App</li>
