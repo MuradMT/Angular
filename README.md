@@ -1,6 +1,6 @@
 # Angular
 <h1>Learned Topics</h1>
-<ol>
+<ul type=square>
   <li><strong>First Part</strong></li>
   <li>What is Angular</li>
   <li>what is npm and node</li>
@@ -31,4 +31,4 @@
     <li>NullInjection Error</li>,
     <li>HttpClientModel</li>,<li>appModule imports-declarations</li>,<li>Cors Configuration in Backend for Angular App</li>
  
-</ol>
+</ul>
