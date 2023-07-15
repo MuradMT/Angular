@@ -1,6 +1,7 @@
 # Angular
 <h1>Learned Topics</h1>
 <ol>
+  <li><strong>First Part</strong></li>
   <li>What is Angular</li>
   <li>what is npm and node</li>
   <li>angular cli </li>
@@ -15,9 +16,19 @@
            <li>app module</li>
             <li>npm install bootsrap</li>
              <li>add bootstrap to angular.json</li>
+  <li><strong>Second Part</strong></li>
   <li>client model</li>
   <li>Typescript interface</li>
   <li>import-export</li>
   <li>creative-tim templates for angular</li>
   <li>AngularJs vs Angular</li>
+  <li><strong>Third Part</strong></li>
+  <li>Response model</li>
+  <li>TypeScript implements-extends</li>
+   <li>OnInit(ngoninit) Component</li>,
+  <li> Angular HttpClient(generic get<Type>,post,put,dlete,patch http headers)</li>,
+    <li>Observer Pattern(subscribe)</li>,
+    <li>NullInjection Error</li>,
+    <li>HttpClientModel</li>,<li>appModule imports-declarations</li>,<li>Cors Configuration in Backend for Angular App</li>
+ 
 </ol>
