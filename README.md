@@ -15,4 +15,9 @@
            <li>app module</li>
             <li>npm install bootsrap</li>
              <li>add bootstrap to angular.json</li>
+  <li>client model</li>
+  <li>Typescript interface</li>
+  <li>import-export</li>
+  <li>creative-tim templates for angular</li>
+  <li>AngularJs vs Angular</li>
 </ol>
