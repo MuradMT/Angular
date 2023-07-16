@@ -40,7 +40,7 @@
    <ul type="circle">
     <li>Angular Services(ng g service todo)</li>
     <li>*ngIf directive</li>
-    <li>Observable<T>(for asynchronous programming,solve this problem in easy way and much more better than react and vue)</li>
+    <li>Observable <Type> (for asynchronous programming,solve this problem in easy way and much more better than react and vue)</li>
     <li>Dependency Injection for services</li>
    </ul>
 </ul>
