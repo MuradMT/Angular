@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {HttpClient} from '@angular/common/http';
 import { todo } from 'src/app/models/todo';
+import { TodoService } from 'src/app/services/todo.service';
 @Component({
   selector: 'app-todo',
   templateUrl: './todo.component.html',
@@ -8,16 +8,16 @@ import { todo } from 'src/app/models/todo';
 })
 export class TodoComponent implements OnInit {
   todos:todo[]=[]
-  apiUrl:string='https://jsonplaceholder.typicode.com/todos';
-  constructor(private hc:HttpClient) {
+  show=false;
+  constructor(private todoService:TodoService) {
   }
   ngOnInit(): void {
       this.getTodos();
   }
   getTodos(){
-    this.hc.get<todo[]>(this.apiUrl).subscribe(response=>{
-      this.todos=response;
-    });
-    return this.todos;// [{id:1,userId:1,title:'hi',completed:true}]
+   this.todoService.getTodos().subscribe(response=>{
+    this.todos=response;
+    this.show=true;
+   })
   }
 }

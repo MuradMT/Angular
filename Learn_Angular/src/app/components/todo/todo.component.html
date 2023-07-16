@@ -1,5 +1,8 @@
-<p>todo works!</p>
-<table class="table">
+
+<div *ngIf="show==false" class="spinner-border text-primary" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<table *ngIf="show==true" class="table">
     <thead>
       <tr>
         <th scope="col">UserId</th>
