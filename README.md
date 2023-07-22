@@ -1,4 +1,4 @@
-# Angular
+# Angular Web Framework
 <h1>Learned Topics</h1>
 <ul type=square>
      <li><strong>First Part</strong></li>
@@ -42,5 +42,10 @@
     <li>*ngIf directive</li>
     <li>Observable Generic (for asynchronous programming,solve this problem in easy way and much more better than react and vue)</li>
     <li>Dependency Injection for services</li>
+   </ul>
+          <li><strong>Fifth Part</strong></li>
+   <ul type="circle">
+    <li>Generics in Typescript</li>
+        <li>--skip-tests</li>
    </ul>
 </ul>
