@@ -47,5 +47,9 @@
    <ul type="circle">
     <li>Generics in Typescript</li>
         <li>--skip-tests</li>
+        <li> Angular Routing(router outlet and app routing module-path and component and path match)</li>
+        <li>event binding-(click)</li>
+        <li>property binding-[class]</li>
+        <li>tsconfig json strictpropertyinitilization:false(if your encounter with initilization error,this code solves your problem)</li>
    </ul>
 </ul>
