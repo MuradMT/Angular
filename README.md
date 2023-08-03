@@ -52,4 +52,13 @@
         <li>property binding-[class]</li>
         <li>tsconfig json strictpropertyinitilization:false(if your encounter with initilization error,this code solves your problem)</li>
    </ul>
+         <li><strong>Sixth Part</strong></li>
+   <ul type="circle">
+         <li>Active root get id on app routing:"some/:id" ,component: "some"</li>
+         <li>routerLink</li>
+         <li>private x:Activated root</li>
+         <li>this.ar.params.subscribe and params['id']</li>
+         <li>jquery download with npm and add angular json scripts</li>
+   </ul>
+
 </ul>
