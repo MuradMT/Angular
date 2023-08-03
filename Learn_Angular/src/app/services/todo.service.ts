@@ -11,4 +11,7 @@ export class TodoService {
   getTodos():Observable<todo[]>{
     return this.hc.get<todo[]>(this.apiUrl);
   }
+  getTodosByCategory(id:number):Observable<todo[]>{
+    return this.hc.get<todo[]>(this.apiUrl);
+  }
 }

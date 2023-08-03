@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { Category } from 'src/app/models/category';
 
 @Component({
@@ -7,10 +8,14 @@ import { Category } from 'src/app/models/category';
   styleUrls: ['./category.component.scss']
 })
 export class CategoryComponent {
+  constructor(){
+
+  }
+
    data:Category[]=[
-    {name:'My'},
-    {name:'Your'},
-    {name:'His'},];
+    {id:1,name:'My'},
+    {id:2,name:'Your'},
+    {id:3,name:'His'},];
    category:Category;
    getCategory(item:Category){
         this.category=item;
