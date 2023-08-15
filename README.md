@@ -60,5 +60,9 @@
          <li>this.ar.params.subscribe and params['id']</li>
          <li>jquery download with npm and add angular json scripts</li>
    </ul>
+   <li><strong>Seventh Part</strong></li>
+   <ul type="circle">
+         <li>Type assertions on TypeScript(as)</li>
+   </ul>
 
 </ul>
