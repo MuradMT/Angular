@@ -63,6 +63,10 @@
    <li><strong>Seventh Part</strong></li>
    <ul type="circle">
          <li>Type assertions on TypeScript(as)</li>
+        <li>Difference between object.freeze vs object.seal->
+             (reeze makes an object completely immutable, 
+             while Object. seal allows existing properties to be modified, but prevents the addition and deletion of new properties.)
+        </li>
    </ul>
 
 </ul>
